@@ -1,5 +1,5 @@
 basic:
-    name: asasasa
+    name: 'https://bbc.com'
     environments:
         production: 'https://bbc.com'
         staging: ''
@@ -25,15 +25,14 @@ advanced:
     mask: ''
     remove: ''
     isolate: ''
-    delay: 0
+    delay: 15
     scroll: true
     headers:
         - { value: '', header: '' }
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content:
-        - { selector: '', type: title }
+    mock_content: ''
     login:
         type: none
         click_element: false
