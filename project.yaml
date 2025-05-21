@@ -1,7 +1,7 @@
 basic:
-    name: point.com
+    name: 'https://bbc.com'
     environments:
-        production: 'https://point.com'
+        production: 'https://bbc.com'
         staging: ''
         development: ''
     breakpoints:
@@ -10,28 +10,10 @@ basic:
         - 1200
     pages:
         - /
-        - /offer
-        - /hei
-        - /start/hei
-        - /hei/how-hei-works
-        - /seed
-        - /blog
-        - /blog/category/point-research
-        - /blog/category/tools
-        - /media-room
-        - /partners
-        - /about
-        - /careers
-        - /testimonials
-        - /media-room/press-coverage
-        - /investors
-        - /contact
-        - /refer
-        - /licenses
-        - /terms-of-use
-        - /privacy-policy
-        - /vulnerability-disclosure-policy
-        - /accessibility
+        - /news
+        - /sport
+        - /business
+        - /innovation
     monitoring:
         days: {  }
         type: daily
@@ -46,7 +28,7 @@ advanced:
     delay: 15
     scroll: true
     headers:
-        - { header: '', value: '' }
+        - { value: '', header: '' }
     cookies: ''
     custom_js: ''
     custom_css: ''
