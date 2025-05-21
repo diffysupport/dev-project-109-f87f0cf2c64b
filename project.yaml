@@ -1,0 +1,59 @@
+basic:
+    name: point.com
+    environments:
+        production: 'https://point.com'
+        staging: ''
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /offer
+        - /hei
+        - /start/hei
+        - /hei/how-hei-works
+        - /seed
+        - /blog
+        - /blog/category/point-research
+        - /blog/category/tools
+        - /media-room
+        - /partners
+        - /about
+        - /careers
+        - /testimonials
+        - /media-room/press-coverage
+        - /investors
+        - /contact
+        - /refer
+        - /licenses
+        - /terms-of-use
+        - /privacy-policy
+        - /vulnerability-disclosure-policy
+        - /accessibility
+    monitoring:
+        days: {  }
+        type: daily
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
